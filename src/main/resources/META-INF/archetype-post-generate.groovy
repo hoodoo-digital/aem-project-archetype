@@ -8,7 +8,7 @@ def rootDir = new File(request.getOutputDirectory() + "/" + request.getArtifactI
 def uiAppsPackage = new File(rootDir, "ui.apps")
 def uiContentPackage = new File(rootDir, "ui.content")
 def rootPom = new File(rootDir, "pom.xml")
-def frontendModules = ["general", "angular", "react"]
+def frontendModules = ["general", "angular", "react", "storybook"]
 
 def singleCountry = request.getProperties().get("singleCountry")
 def appId = request.getProperties().get("appId")

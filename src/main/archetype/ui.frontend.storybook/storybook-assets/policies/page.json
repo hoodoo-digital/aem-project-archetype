@@ -1,0 +1,1 @@
+{"jcr:primaryType":"nt:unstructured","policy":{"jcr:primaryType":"nt:unstructured","jcr:title":"Generic Page","clientlibsJsHead":"bas.dependencies","jcr:description":"Includes the required client libraries.","clientlibs":["bas.dependencies","bas.site"],"sling:resourceType":"wcm/core/components/policy/policy","jcr:content":{"jcr:primaryType":"nt:unstructured"}}}

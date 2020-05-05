@@ -1,0 +1,64 @@
+.cmp-button {
+  background: rgb(107, 107, 107);
+  border: 1px solid #323232;
+  color: #fff;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .15s linear;
+ 
+
+  /* -- Step 1 -- */
+
+  // padding: 18px 55px;
+  // text-decoration: none;
+  // position: relative;
+  // width: 309px;
+  // height: 63px;
+  // background: #B1473A 0% 0% no-repeat padding-box;
+  // opacity: 1;
+  // border:none;
+  // text-align: center;
+  // font-family: Poppins;
+  // font-weight:bold;
+  // letter-spacing: 0px;
+  // color: #FFFFFF;
+  // text-transform: uppercase;
+  // opacity: 1;
+
+  &:hover {
+    background-color: #000000;
+    border-color: #000000;
+    outline: 0; 
+  }
+
+  .cmp-button--outline & {
+    background: transparent;
+    color: #b34031;
+    border:1px solid #b34031;
+
+    &:hover {
+      background: #b34031;
+      color: #fff;
+    }
+  }
+
+  /* -- ADD StyleSystem -- */
+  .cmp-button--abstract & {
+    
+  }
+}
+
+.cmp-button__text {}
+
+.cmp-button__icon {
+  padding-right: 10px;
+
+  &--facebook {
+    &::before {
+      content: "\f09a";
+      font-family: "FontAwesome";
+      font-weight: 400;
+    }
+  }
+}

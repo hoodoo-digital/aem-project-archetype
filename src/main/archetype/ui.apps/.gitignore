@@ -1,4 +1,4 @@
-#if ( $frontendModule == "general" )
+#if ( $frontendModule == "general" || $frontendModule == "storybook" )
 src/main/content/jcr_root/apps/${appId}/clientlibs/clientlib-site
 src/main/content/jcr_root/apps/${appId}/clientlibs/clientlib-dependencies
 #elseif ( $frontendModule == "angular" )
