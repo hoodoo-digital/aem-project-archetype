@@ -14,7 +14,7 @@
     "prod": "webpack -p --config ./webpack.prod.js && clientlib --verbose",
     "start": "webpack-dev-server --open --config ./webpack.dev.js",
     "storybook": "start-storybook -s ./storybook-assets -p 9001",
-    "acme": "DEBUG=acme:* acme pull --config acme.settings.json -d storybook-assets && DEBUG=acme:* acme create -s storybook-assets"
+    "acme": "DEBUG=acme:* acme pull --config acme.settings.json -d storybook-assets && DEBUG=acme:* acme create -s storybook-assets --config acme.settings.json"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
